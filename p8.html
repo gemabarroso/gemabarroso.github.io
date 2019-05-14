@@ -11,8 +11,30 @@
       border: 1px solid black;
       padding: 3px;
     }
-    .inline{
-      border:1px solid black;
+
+
+    .common>div {
+      border: 1px solid black;
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      text-align: center;
+      line-height: 50px;
+      display: inherit;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .inline-block{
+      display: inline-block;
     }
   </style>
 </head>
@@ -43,45 +65,44 @@
   </ul>
 
 
-<h3><strong>Actividad</strong></h3>
+  <h3><strong>Actividad</strong></h3>
   <p>Modifica la propiedad display para que el siguiente grupo de 10 elemnetos div se visualize según la cabecera.</p>
 
   <p><strong>10 div - block</strong></p>
-<div class="block">
-  2
-  ...
-  9
-  10
-</div>
-
-
-  <h4><strong>10 div - inline</strong></h4>
-  <div class="inline">
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
+  <div class="common block">
+    <div>1</div>
+    <div>2</div>
+    <div>...</div>
+    <div>9</div>
+    <div>10</div>
   </div>
 
+  <p><strong>10 div - inline</strong></p>
+  <div class="common inline">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+  </div>
 
-  <h4><strong>10 div - inline-block</strong></h4>
-  <div class="inline-block">
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
+  <p><strong>10 div - inline-block</strong></p>
+  <div class="common inline-block">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
   </div>
 
 
